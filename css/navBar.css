@@ -1,0 +1,137 @@
+@font-face {
+  font-family: dk;
+  src: url(../font/DK\ Lemon\ Yellow\ Sun.otf);
+}
+
+@font-face {
+  font-family: mont;
+  src: url(../font/mont/Montserrat-Regular.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: dk;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.subNome a {
+  color: black;
+}
+
+.navBar {
+  max-width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.subGambiarra {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.subSubGambiarra {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.gambiarra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome {
+  font-size: 22pt;
+  background: linear-gradient(
+    to left,
+    #fc4445,
+    #022b3a,
+    #808080,
+    #000000,
+    #2f2fa2
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subNome {
+  font-size: 17pt;
+  margin-left: 10px;
+  font-family: mont;
+}
+
+.subNome .underlineHover {
+  width: 0;
+  visibility: hidden;
+  height: 1px;
+  opacity: 0.3;
+}
+
+.subNome:hover .underlineHover {
+  width: 100%;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+.s1 {
+  margin-left: 50px;
+}
+
+.navBar .login {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 40px;
+}
+
+.searchIcon {
+  margin-top: 6px;
+  margin-left: 9px;
+  display: flex;
+  margin-top: 4px;
+}
+
+.navBar #searchBar {
+  margin-left: auto;
+}
+
+.menu {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.bars div {
+  width: 1.5px;
+  height: 28px;
+}

@@ -1,0 +1,50 @@
+.svg-logo {
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
+  display: block;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.another-svg {
+  margin: 0 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.another-svg a svg > path {
+  fill: slategrey;
+}
+
+.svg-1:hover > path {
+  fill: rgb(59, 89, 152);
+  transition: 0.4s;
+}
+
+.svg-2:hover > #path-test {
+  fill: url(#ir);
+}
+
+#path-test:hover {
+  transition: 1s;
+  transition: steps();
+}
+
+.svg-3:hover > path {
+  fill: rgb(37, 211, 102);
+  transition: 0.4s;
+}
+
+.svg-4:hover > #gmail,
+#chat-bubble {
+  fill: rgb(212, 70, 56);
+  transition: 0.4s;
+}
+
+.svg-4 {
+  fill: slategrey;
+}
