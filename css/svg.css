@@ -25,15 +25,6 @@
   transition: 0.4s;
 }
 
-.svg-2:hover > #path-test {
-  fill: url(#ir);
-}
-
-#path-test:hover {
-  transition: 1s;
-  transition: steps();
-}
-
 .svg-3:hover > path {
   fill: rgb(37, 211, 102);
   transition: 0.4s;
