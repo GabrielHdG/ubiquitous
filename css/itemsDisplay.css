@@ -65,55 +65,57 @@ body {
 
 .brandDisplay {
   display: grid;
-  grid-template-columns: 260px 260px 260px 260px 260px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 260px 260px 260px 260px 260px 260px;
+  grid-template-rows: 200px 200px 300px;
   row-gap: 60px;
   padding: 0 0 200px 0;
 }
 
 .brandDisplay .sennheiser {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
 }
 
 .brandDisplay .razer {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin-left: -30px;
 }
 
 .brandDisplay .samsumg {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 6;
+  grid-column-end: 7;
 }
 
 .brandDisplay .intel {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
 }
 
 .brandDisplay .nvidia {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 .brandDisplay .amd {
-  grid-column-start: 4;
+  grid-column-start: 6;
   grid-column-end: 7;
 }
 
 .brandDisplay .logitech {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
 }
 
 .brandDisplay .ps {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin-left: -10px;
 }
 
 .brandDisplay .xbox {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 6;
+  grid-column-end: 7;
 }
 
 .brandDisplay .xbox .xboxImg {

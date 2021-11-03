@@ -17,7 +17,7 @@
 }
 
 .another-svg a svg > path {
-  fill: slategrey;
+  fill: rgba(0, 0, 0, 0.2);
 }
 
 .svg-1:hover > path {
@@ -37,5 +37,5 @@
 }
 
 .svg-4 {
-  fill: slategrey;
+  fill: rgba(0, 0, 0, 0.2);
 }
