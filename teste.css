@@ -1,0 +1,18 @@
+* {
+    pointer-events: fill;
+}
+
+.logo img {
+    width: 300px;
+    height: 300px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.6s ease-in-out;
+}
+
+.logo img:hover {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    filter: grayscale(0%);
+}
