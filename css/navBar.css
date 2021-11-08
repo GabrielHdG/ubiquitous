@@ -33,7 +33,6 @@ a:active {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  border-bottom: 1px solid black;
 }
 
 .subGambiarra {
@@ -124,14 +123,4 @@ a:active {
 
 .navBar #searchBar {
   margin-left: auto;
-}
-
-.menu {
-  margin-top: 3px;
-  margin-left: 10px;
-}
-
-.bars div {
-  width: 1.5px;
-  height: 28px;
 }
