@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: ml;
+  src: url(../font/milliard/mXLight.otf);
+}
+
+.wrap3 {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  height: 600px;
+}
+
+.loginContainer {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: ml;
+  color: white;
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.loginContainer label[for] {
+  align-self: flex-start;
+}
+
+.usuario {
+  margin-bottom: 20px;
+}
+
+.container {
+  font-family: ml;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  background-color: rgba(0, 0, 0, 0.664);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.container .psw a {
+  text-decoration: none;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: unset;
+  color: aliceblue;
+  font-weight: lighter;
+}
+
+.loginContainer button {
+  margin-top: 20px;
+  padding: 5px 40px;
+  border-radius: 3px;
+  border: none;
+}

@@ -53,7 +53,7 @@ a:active {
 .logo {
   height: 140px;
   width: 140px;
-  margin-right: 40px;
+  margin-right: 40px 0px;
   margin-left: -20px;
 }
 

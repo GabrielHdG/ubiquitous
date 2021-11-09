@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: mont;
+  src: url(../font/mont/Montserrat-Regular.ttf);
+}
+
 .footer {
   display: flex;
   position: relative;
@@ -17,6 +22,7 @@
   align-items: center;
   min-height: 100%;
   border-top: 1px solid black;
+  font-family: mont;
 }
 
 .subFooter {
@@ -31,4 +37,30 @@
 .lala {
   border-top: 1px solid black;
   width: 20%;
+}
+
+.logo2 {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.gambiarra1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome1 {
+  font-size: 12pt;
+  background: linear-gradient(
+    to left,
+    #fc4445,
+    #022b3a,
+    #808080,
+    #000000,
+    #2f2fa2
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
