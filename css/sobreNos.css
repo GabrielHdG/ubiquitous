@@ -65,11 +65,11 @@
   font-weight: light;
   width: 1800px;
   margin-top: 60px;
-  text-align: justify;
 }
 
 .containerTextSobreNos h2 {
   width: 1200px;
+  word-spacing: 12px;
 }
 
 .office {
