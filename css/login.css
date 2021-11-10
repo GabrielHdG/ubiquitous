@@ -60,6 +60,8 @@ input[type="password"] {
   border-radius: 0px;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 12pt;
+  font-family: ml;
 }
 
 input[type="text"]:focus,
