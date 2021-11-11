@@ -8,6 +8,23 @@ body {
   margin: 0;
 }
 
+.slideDisplay {
+  width: 1800px;
+  display: grid;
+  grid-template-columns: 390px 690px 690px;
+  gap: 20px;
+  padding: 50px 20px;
+  place-content: center;
+  background-color: rgba(248, 248, 248, 0.7);
+}
+
+.slideDisplayItems img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  height: 400px;
+}
+
 .mainDisplay {
   display: flex;
   flex-direction: column;
@@ -59,17 +76,18 @@ body {
 .itemsContainer > img {
   width: 170px;
   height: 150px;
-  margin-bottom: 20px;
+  padding: 50px;
+  background-color: whitesmoke;
 }
 
 .itemsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 260px;
   height: auto;
   border-radius: 4px;
-  padding: 10px 0 50px 0;
+  padding: 30px 0 30px 0;
+  background-color: rgba(128, 128, 128, 0.144);
 }
 
 .itemsContainer h2 {
@@ -78,18 +96,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: normal;
+  margin: 0 15px;
   padding: 0 15px;
   line-height: 25px;
+  background-color: whitesmoke;
 }
 
 .itemsContainer h1 {
   font-size: 27px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
-  margin: 0;
   align-self: flex-start;
-  width: 230px;
-  padding: 10px 15px;
+  width: 256px;
+  padding: 10px 0 15px 14px;
+  background-color: whitesmoke;
+  margin-left: 15px;
 }
 
 .brandDisplay {
