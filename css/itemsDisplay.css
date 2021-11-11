@@ -1,35 +1,68 @@
+@font-face {
+  src: url(../font/point/pointOne.ttf);
+  font-family: point;
+}
+
 body {
   padding: 0;
   margin: 0;
 }
 
-.hotItems {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 30px;
+.mainDisplay {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.itemsDisplay {
+.wrap-1 {
+  max-width: 1920px;
+}
+
+.hotItems h2 {
+  text-align: center;
+  display: grid;
+  place-content: center;
+  margin-top: 100px;
+  padding: 60px 0 80px 0;
+  grid-area: a;
+  font-family: ml;
+  font-weight: normal;
+  font-size: 22pt;
+  background-color: rgba(248, 248, 248, 0.7);
+  height: 100px;
+}
+
+.itemsDisplay1 {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
   gap: 20px;
+  place-content: center;
   background-color: rgba(248, 248, 248, 0.7);
-  padding-top: 70px;
   padding-bottom: 50px;
 }
 
-.itemsDisplay .itemsContainer > img {
-  width: 220px;
-  height: 200px;
+.itemsDisplay1 {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
+  gap: 20px;
+  place-content: center;
+  background-color: rgba(248, 248, 248, 0.7);
+  padding-bottom: 50px;
+}
+
+.itemsContainer > img {
+  width: 170px;
+  height: 150px;
   margin-bottom: 20px;
 }
 
-.itemsDisplay .itemsContainer {
+.itemsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +72,7 @@ body {
   padding: 10px 0 50px 0;
 }
 
-.itemsDisplay .itemsContainer h2 {
+.itemsContainer h2 {
   text-align: left;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +82,7 @@ body {
   line-height: 25px;
 }
 
-.itemsDisplay .itemsContainer h1 {
+.itemsContainer h1 {
   font-size: 27px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -57,11 +90,6 @@ body {
   align-self: flex-start;
   width: 230px;
   padding: 10px 15px;
-}
-
-.itemsDisplay h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
 }
 
 .brandDisplay {

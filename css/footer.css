@@ -5,38 +5,26 @@
 
 @font-face {
   font-family: mont;
-  src: url(../font/mont/Montserrat-Regular.ttf);
+  src: url(../font/DK\ Lemon\ Yellow\ Sun.otf);
 }
 
 .footer {
   display: flex;
-  position: relative;
-  width: 100%;
-  min-height: 200px;
-  margin-top: 500px;
+  flex-direction: column;
+  justify-content: center;
+  width: 1920px;
+  min-height: 300px;
+  padding-left: 200px;
 }
 
 .containerLogoFooter {
   display: flex;
-  padding: 0 50px;
   align-items: center;
-  min-height: 100%;
-  border-top: 1px solid black;
-  font-family: mont;
+  font-family: dk;
 }
 
 .subFooter {
-  width: 100%;
-  min-height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid black;
-}
-
-.lala {
-  border-top: 1px solid black;
-  width: 20%;
 }
 
 .logo2 {
@@ -52,7 +40,10 @@
 }
 
 .nome1 {
-  font-size: 12pt;
+  font-size: 16pt;
+  letter-spacing: 2px;
+  color: black;
+  /*
   background: linear-gradient(
     to left,
     #fc4445,
@@ -63,4 +54,12 @@
   );
   -webkit-background-clip: text;
   color: transparent;
+  */
+}
+
+.wrap4 {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  background-color: #8080803b;
 }

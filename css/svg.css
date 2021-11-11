@@ -1,53 +1,49 @@
 .svg-logo {
-    margin-top: 10px;
-    width: 250px;
-    height: 50px;
-    display: block;
+  margin-top: 10px;
+  width: 180px;
+  height: 50px;
+  display: block;
 }
 
 .wrap {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .another-svg {
-    margin: 0 10px;
-    width: 100px;
-    cursor: pointer;
+  margin: 0 10px;
+  width: 100px;
+  cursor: pointer;
 }
 
-.another-svg a svg>path {
-    fill: rgba(0, 0, 0, 1);
+.another-svg a svg > path {
+  fill: rgba(0, 0, 0, 0.4);
 }
 
-.svg-1:hover>path {
-    fill: rgb(59, 89, 152);
-    transition: 0.4s;
+.svg-1:hover > path {
+  fill: rgb(59, 89, 152);
+  transition: 0.4s;
 }
 
-.svg-2:hover>.path-test {
-    fill: url(#ir) !important;
+.svg-2:hover > .path-test {
+  fill: url(#ir) !important;
 }
 
-#ir:hover>path {
-    fill: rgb(59, 89, 152);
-    transition: 0.4s;
+#ir:hover > path {
+  fill: rgb(59, 89, 152);
+  transition: 0.4s;
 }
 
-.svg-3:hover>path {
-    fill: rgb(37, 211, 102);
-    transition: 0.4s;
+.svg-3:hover > path {
+  fill: rgb(37, 211, 102);
+  transition: 0.4s;
 }
 
-.svg-4:hover>#gmail {
-    fill: rgb(212, 70, 56);
-    transition: 0.4s;
+.svg-4:hover > #gmail {
+  fill: rgb(212, 70, 56);
+  transition: 0.4s;
 }
 
 .svg-4 {
-    fill: rgba(0, 0, 0, 0.2);
-}
-
-#instagramLogo {
-    fill: rgba(0, 255, 255, 1) !important;
+  fill: rgba(0, 0, 0, 0.4);
 }
