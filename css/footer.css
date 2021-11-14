@@ -9,22 +9,28 @@
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1920px;
+  display: grid;
+  grid-template-columns: 180px 300px 300px;
+  grid-template-rows: repeat(2, 50%);
+  width: 1720px;
   min-height: 300px;
   padding-left: 200px;
 }
 
 .containerLogoFooter {
   display: flex;
+  height: 80px;
   align-items: center;
   font-family: dk;
+  align-self: center;
 }
 
 .subFooter {
   display: flex;
+  align-items: center;
+  height: 50px;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .logo2 {
