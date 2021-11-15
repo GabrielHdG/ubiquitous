@@ -8,23 +8,6 @@ body {
   margin: 0;
 }
 
-.slideDisplay {
-  width: 1800px;
-  display: grid;
-  grid-template-columns: 390px 690px 690px;
-  gap: 20px;
-  padding: 50px 20px;
-  place-content: center;
-  background-color: rgba(248, 248, 248, 0.7);
-}
-
-.slideDisplayItems img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  height: 400px;
-}
-
 .mainDisplay {
   display: flex;
   flex-direction: column;
