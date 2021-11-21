@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  src: url(../font/point/pointOne.ttf);
-  font-family: point;
+  src: url(../font/roboto/Roboto-Thin.ttf);
+  font-family: roboto;
 }
 
 .wrap2 {
@@ -42,7 +42,7 @@
 .textSobreNos {
   position: absolute;
   color: azure;
-  font-family: point;
+  font-family: roboto;
   font-size: 40pt;
   margin-left: 750px;
   margin-top: 100px;
@@ -53,7 +53,7 @@
   color: azure;
   width: 1200px;
   font-weight: lighter;
-  font-family: point;
+  font-family: roboto;
   margin-left: 300px;
   margin-top: 170px;
 }
@@ -61,8 +61,7 @@
 .containerTextSobreNos {
   display: grid;
   place-content: center;
-  font-family: point;
-  font-weight: light;
+  font-family: roboto;
   width: 1800px;
   margin-top: 60px;
 }
@@ -70,6 +69,7 @@
 .containerTextSobreNos h2 {
   width: 1200px;
   word-spacing: 12px;
+  font-size: 15pt;
 }
 
 .office {

@@ -86,6 +86,19 @@ a:active {
   color: transparent;
 }
 
+.nome:hover a {
+  background: linear-gradient(
+    to left,
+    #fc4445,
+    #022b3a,
+    #808080,
+    #000000,
+    #2f2fa2
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .subNome a {
   font-size: 17pt;
   font-family: ml;
@@ -93,6 +106,10 @@ a:active {
   text-decoration: none;
   display: grid;
   place-content: center;
+}
+
+.subNome a:hover {
+  color: #000000;
 }
 
 .subNome:nth-child(1) .underlineHover {
@@ -109,7 +126,7 @@ a:active {
   visibility: hidden;
   height: 1px;
   opacity: 0.3;
-  margin-left: 23px;
+  margin-left: 19px;
   transition: none;
 }
 
@@ -129,33 +146,32 @@ a:active {
   opacity: 0.3;
   margin-left: 9px;
   transition: none;
-  margin-left: 40px;
-  transition: none;
+  margin-left: 32px;
 }
 
 .subNome:hover:first-child .underlineHover {
-  width: 138px;
+  width: 107px;
   visibility: visible;
   transition: 0.5s;
   background-color: #000000;
 }
 
 .subNome:hover:nth-child(2) .underlineHover {
-  width: 103px;
+  width: 80px;
   visibility: visible;
   transition: 0.5s;
   background-color: #000000;
 }
 
 .subNome:hover:nth-child(3) .underlineHover {
-  width: 130px;
+  width: 102px;
   visibility: visible;
   transition: 0.5s;
   background-color: #000000;
 }
 
 .subNome:hover:nth-child(4) .underlineHover {
-  width: 70px;
+  width: 55px;
   visibility: visible;
   transition: 0.5s;
   background-color: #000000;
