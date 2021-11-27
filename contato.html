@@ -125,13 +125,13 @@
         <div class="ladoDireito">
           <div class="informacoes">
             <div class="seila">
-              <form>
+              <form name="form" onsubmit="return validateForm()">
                 <div class="containerLabel">
                   <div class="containerLabel1">
                     <label for="fname">Nome:</label>
                   </div>
                   <div class="containerInput">
-                    <input type="text" id="name" name="firstname" />
+                    <input type="text" id="name" name="formNome" />
                   </div>
                 </div>
 
@@ -148,12 +148,16 @@
                   <label for="">Escreva a sua mensagem:</label>
                   <textarea name="" id="" cols="30" rows="7"></textarea>
                 </div>
+
+                <input type="submit" value="Submit" />
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="js/login.js"></script>
 
     <div class="wrap4">
       <div class="footer">
@@ -183,6 +187,7 @@
                   </svg>
                 </a>
               </div>
+
               <div class="another-svg">
                 <a target="_blank">
                   <svg
@@ -214,6 +219,7 @@
                   </svg>
                 </a>
               </div>
+
               <div class="another-svg">
                 <a target="_blank">
                   <svg
@@ -230,6 +236,7 @@
                   </svg>
                 </a>
               </div>
+
               <div class="another-svg">
                 <svg
                   version="1.1"

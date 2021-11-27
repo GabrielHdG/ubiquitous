@@ -75,7 +75,7 @@
     >
       <div class="row">
         <div class="container p-4 rounded-1" id="containerLogin2">
-          <form>
+          <form onSubmit="return validateForm();">
             <div class="px-3">
               <label for="usuario" class="form-label">Usuario</label>
               <input type="text" class="form-control" id="usuario" />
@@ -87,7 +87,9 @@
             </div>
 
             <p class="py-3" style="text-align: center">
-              <button type="submit" class="btn btn-primary">Entrar</button>
+              <button type="submit" value="Login" class="btn btn-primary">
+                Entrar
+              </button>
             </p>
           </form>
         </div>
