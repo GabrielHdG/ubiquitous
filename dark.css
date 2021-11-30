@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.w {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.w2 {
+  width: 1500px;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.changeColor {
+  width: 20px;
+  margin-top: 20px;
+}
+
+.changeColor a img {
+  width: 20px;
+  height: auto;
+}
