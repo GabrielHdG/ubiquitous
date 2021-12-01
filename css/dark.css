@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.w {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.w2 {
+  width: 1500px;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.changeColor {
+  width: 20px;
+  margin-top: 20px;
+}
+
+.changeColor a img {
+  width: 20px;
+  height: auto;
+}
+
+body.dark-mode {
+  background-color: black;
+  transition: 1s;
+}
+
+.nome.dark-mode {
+  color: aliceblue;
+  transition: 1s;
+}
+
+.banner.dark-mode {
+  background-color: black;
+  transition: 1s;
+}
+
+.itemsDisplay1.dark-mode {
+  background-color: black;
+}
+
+.dots.dark-mode {
+  background-color: rgba(255, 255, 255, 0.014);
+}
+
+.mp.dark-mode {
+  color: white;
+  background-color: black;
+}
+
+.nome1.dark-mode {
+  color: white;
+}
+
+.xboxImg.dark-mode {
+  content: url(../imgs/xboxDark.png) !important;
+}
+
+.sennheiser.dark-mode {
+  width: 260px;
+  margin-top: -30px;
+  content: url(../imgs/sennheiserDark.png) !important;
+}
+
+.amd.dark-mode {
+  margin-top: -40px;
+  margin-left: 20px;
+  content: url(../imgs/amdDark.png) !important;
+}
+
+.ps.dark-mode {
+  width: 400px;
+  margin-left: -80px;
+  margin-top: 30px;
+  content: url(../imgs/psDark.png) !important;
+}
+
+.nvidia.dark-mode {
+  width: 240px;
+  margin-left: 10px;
+  margin-top: 10px;
+  content: url(../imgs/nvidiaDark.jpg) !important;
+}
+
+.styleswitch.dark-mode {
+  background-color: white;
+  padding-top: 12px;
+}

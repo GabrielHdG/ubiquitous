@@ -13,12 +13,6 @@
   src: url(../font/milliard/mXLight.otf);
 }
 
-#navBar.dark-mode {
-  background-color: #222;
-  color: #ddd;
-  transition: 1s;
-}
-
 body {
   padding: 0;
   margin: 0;

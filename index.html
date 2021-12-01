@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/svg.css" />
   <link rel="stylesheet" href="css/slide.css">
+  <link rel="stylesheet" href="css/dark.css">
   <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="path-para-seu-script"></script>
 
@@ -17,6 +18,20 @@
     $(function () {
       $(".styleswitch").click(function () {
         $("#navBar").toggleClass("dark-mode");
+        $("body").toggleClass("dark-mode");
+        $(".nome").toggleClass("dark-mode");
+        $(".banner").toggleClass("dark-mode");
+        $(".itemsDisplay1").toggleClass("dark-mode");
+        $(".dots").toggleClass("dark-mode");
+        $(".mp").toggleClass("dark-mode");
+        $(".mainDisplay").toggleClass("dark-mode");
+        $(".nome1").toggleClass("dark-mode");
+        $(".xboxImg").toggleClass("dark-mode");
+        $(".sennheiser").toggleClass("dark-mode");
+        $(".amd").toggleClass("dark-mode");
+        $(".ps").toggleClass("dark-mode");
+        $(".nvidia").toggleClass("dark-mode");
+        $(".styleswitch").toggleClass("dark-mode");
       });
     });
   </script>
@@ -28,7 +43,7 @@
   <div class="w">
     <div class="w2">
       <div class="changeColor">
-        <a href="#" class="styleswitch" >Dark</a>
+        <a href="#" class="styleswitch" ><img src="imgs/lamp.png" alt="" srcset=""></a>
       </div>
     </div>
   </div>
@@ -46,22 +61,22 @@
 
     <div class="subSubGambiarra">
       <div class="subNome">
-        <a href="categorias.html">Categorias</a>
+        <a class="nome" href="categorias.html">Categorias</a>
         <div class="underlineHover"></div>
       </div>
 
       <div class="subNome">
-        <a href="contato.html">Contato</a>
+        <a class="nome" href="contato.html">Contato</a>
         <div class="underlineHover"></div>
       </div>
 
       <div class="subNome">
-        <a href="sobreNós.html">Sobre nós</a>
+        <a class="nome" href="sobreNós.html">Sobre nós</a>
         <div class="underlineHover"></div>
       </div>
 
       <div class="subNome">
-        <a href="login.html">Login</a>
+        <a class="nome" href="login.html">Login</a>
         <div class="underlineHover"></div>
       </div>
       <!--    <div class="searchIcon">
@@ -136,7 +151,7 @@
 
 
       <div class="hotItems">
-        <h2>MAIS POPULARES</h2>
+        <h2 class="mp">MAIS POPULARES</h2>
       </div>
 
       <div class="itemsDisplay1">
@@ -261,7 +276,7 @@
       </div>
 
       <div class="hotItems">
-        <h2>OFERTAS QUE ACABARAM LOGO</h2>
+        <h2 class="mp">OFERTAS QUE ACABARAM LOGO</h2>
       </div>
       <div class="itemsDisplay1">
         <div class="itemsContainer">
@@ -390,7 +405,7 @@
     </div>
     <div class="brandDisplay">
       <div class="itemsContainer1 sennheiser">
-        <img src="imgs/sennheiser.png" alt="sennheiser" />
+        <img class="sennheiser" src="imgs/sennheiser.png" alt="sennheiser" />
       </div>
       <div class="itemsContainer1 razer">
         <img src="imgs/razer.png" alt="razer" />
@@ -402,16 +417,16 @@
         <img src="imgs/intel.png" alt="intel" />
       </div>
       <div class="itemsContainer1 nvidia">
-        <img src="imgs/nvidia.png" alt="nvidia" />
+        <img class="nvidia" src="imgs/nvidia.png" alt="nvidia" />
       </div>
       <div class="itemsContainer1 amd">
-        <img src="imgs/amd.png" alt="amd" />
+        <img class="amd" src="imgs/amd.png" alt="amd" />
       </div>
       <div class="itemsContainer1 logitech">
         <img src="imgs/logitech.png" alt="logitech" />
       </div>
       <div class="itemsContainer1 ps">
-        <img src="imgs/ps.png" alt="playStation" />
+        <img class="ps" src="imgs/ps.png" alt="playStation" />
       </div>
       <div class="itemsContainer1 xbox">
         <img class="xboxImg" src="imgs/xbox.png" alt="xbox" />
@@ -478,13 +493,13 @@
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                 y="0px" viewBox="0 0 512 512" style="enable-background: new 0 0 512 512" xml:space="preserve"
                 class="svg-4" id="ssvg-4">
-                <path id="gmail" d="M410.272,243.145c-3.63-4.486-10.211-5.179-14.695-1.548l-3.636,2.942c-4.485,3.631-5.177,10.211-1.546,14.696
+                <path class="gmail1" id="gmail" d="M410.272,243.145c-3.63-4.486-10.211-5.179-14.695-1.548l-3.636,2.942c-4.485,3.631-5.177,10.211-1.546,14.696
                      c2.066,2.551,5.083,3.875,8.128,3.875c2.309,0,4.634-0.762,6.568-2.328l3.635-2.942
                      C413.21,254.209,413.903,247.63,410.272,243.145z" />
-                <path id="gmail" d="M380.363,267.357c-3.63-4.486-10.211-5.179-14.695-1.549l-74.708,59.674c-4.485,3.631-5.177,10.21-1.546,14.695
+                <path class="gmail1" id="gmail" d="M380.363,267.357c-3.63-4.486-10.211-5.179-14.695-1.549l-74.708,59.674c-4.485,3.631-5.177,10.21-1.546,14.695
                      c2.064,2.551,5.082,3.875,8.127,3.875c2.309,0,4.634-0.762,6.568-2.327l74.708-59.674
                      C383.301,278.421,383.994,271.843,380.363,267.357z" />
-                <path id="gmail" d="M449.742,62.685H62.258C27.929,62.685,0,90.614,0,124.942v262.117c0,34.329,27.929,62.257,62.258,62.257h387.484
+                <path class="gmail1" id="gmail" d="M449.742,62.685H62.258C27.929,62.685,0,90.614,0,124.942v262.117c0,34.329,27.929,62.257,62.258,62.257h387.484
                      c34.33,0,62.258-27.928,62.258-62.257V124.942C512,90.614,484.072,62.685,449.742,62.685z M419.912,83.582L255.859,216.19
                      L91.806,83.582H419.912z M428.126,428.418H83.592V184.382l165.712,133.49c3.826,3.082,9.284,3.082,13.11,0l165.711-133.49V428.418
                      z M491.102,387.058c0,22.806-18.554,41.359-41.36,41.359h-0.717v-265.87c0-4.023-2.309-7.688-5.939-9.425
