@@ -65,7 +65,7 @@ body.dark-mode {
 .sennheiser.dark-mode {
   width: 260px;
   margin-top: -30px;
-  content: url(../imgs/sennheiserDark.png) !important;
+  content: url(../imgs/senheiserDark.png) !important;
 }
 
 .amd.dark-mode {
